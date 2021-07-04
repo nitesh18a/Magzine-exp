@@ -37,6 +37,6 @@ app.get("/", (req,res) =>{
     res.send("hello from express server");
 });
 
-app.listen(8000, () =>{
+app.listen(port, () =>{
     console.log("listing at 8000");
 }); 
